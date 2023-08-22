@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sistema ERP">
+    <meta name="keywords" content="Controle de estoque, NFE, SPED">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Marvel Comics</title>
+</head>
+
+<body>
+    <h1> Marvel Comics </h1>
+    <h1>
+        <center>
+            <div class="filter-container">
+                <div>
+                    <input type="text" id="filter" class="filter" placeholder="Pesquisar personagem" autofocus />
+                    <button onclick="chamada()">Pesquisar</button>
+                </div>
+                <img src="" id="imgHero" alt="">
+                <div id="nameHero"></div>
+            </div>
+        </center>
+    </h1>
+    <div class="container">
+        <ul data-js="marvel" class="marvel"></ul>
+    </div>
+</body>
+<script src="js/js.js"></script>
+
+</html>
